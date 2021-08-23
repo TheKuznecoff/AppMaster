@@ -28,3 +28,16 @@ new Swiper('.image-slider', {
    observeParents: true,
    observeSlideChildren: true,
 });
+
+//Header-fixed
+window.onscroll = function () {
+
+   let header = document.querySelector('.header');
+
+   if (window.pageYOffset > 300) {
+      header.classList.add('header-fixed');
+   } else {
+      header.classList.remove('header-fixed');
+   }
+
+}
