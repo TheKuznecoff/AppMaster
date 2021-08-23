@@ -19,3 +19,9 @@ for (let index = 0; index < tabs.length; index++) {
    }
 }
 //Swiper
+new Swiper('.image-slider', {
+   pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+   }
+});

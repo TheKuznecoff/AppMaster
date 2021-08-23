@@ -5,8 +5,8 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=1140">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
    <link rel="stylesheet" href="css/style.css">
-
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
@@ -14,6 +14,7 @@
 </head>
 
 <body>
+   <!--header -->
    <header class="header">
       <div class="container">
          <div class="header__body">
@@ -57,6 +58,7 @@
          </div>
       </div>
    </header>
+    <!--main-page -->
    <section class="main-page">
       <div class="container">
          <div class="main-page__body">
@@ -80,6 +82,7 @@
          </div>
       </div>
    </section>
+   <!--main-page__inner -->
    <div class="main-page__inner inner-main">
       <div class="container">
          <div class="inner-main__body">
@@ -104,6 +107,7 @@
          </div>
       </div>
    </div>
+   <!--features -->
    <section class="features">
       <div class="container">
          <div class="features__body">
@@ -142,9 +146,39 @@
                      hassle.</p>
                </a>
             </nav>
+            <!--slider -->
             <div class="features-tabs__body">
                <div class="features-tabs__block _tabs-block _active">
-                  <img src="img/preview.jpg" alt="preview.jpg">
+                  <div class="image-slider swiper-container">
+                     <div class="image-slider__wrapper swiper-wrapper">
+                        <div class="image-slider__slide swiper-slide">
+                           <div class="image-slider__image">
+                              <img src="img/preview.jpg" alt="preview.jpg">
+                           </div>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                           <div class="image-slider__image">
+                              <img src="img/studio.jpg" alt="preview.jpg">
+                           </div>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                           <div class="image-slider__image">
+                              <img src="img/preview.jpg" alt="preview.jpg">
+                           </div>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                           <div class="image-slider__image">
+                              <img src="img/studio.jpg" alt="preview.jpg">
+                           </div>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                           <div class="image-slider__image">
+                              <img src="img/preview.jpg" alt="preview.jpg">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
                </div>
                <div class="features-tabs__block _tabs-block">
                   <img src="img/studio.jpg" alt="preview.jpg">
@@ -163,23 +197,8 @@
             </a>
          </div>
       </div>
-      <!--slider
-      <div class="image-slider swiper-container">
-         <div class="image-slider__wrapper swiper-wrapper">
-            <div class="image-slider__slide swiper-slide">
-               <div class="image-slider__image">
-                  <img src="img/preview.jpg" alt="preview.jpg">
-               </div>
-            </div>
-            <div class="image-slider__slide swiper-slide">
-               <div class="image-slider__image">
-                  <img src="img/studio.jpg" alt="preview.jpg">
-               </div>
-            </div>
-         </div>
-      </div>
-      -->
    </section>
+   <!--source -->
    <section class="source">
       <div class="container">
          <div class="source__body">
@@ -213,7 +232,7 @@
          </div>
       </div>
    </section>
-
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    <script src="js/app.js"></script>
 </body>
 

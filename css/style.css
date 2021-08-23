@@ -537,6 +537,7 @@ body {
 
 .features-tabs__body {
   margin-left: 40px;
+  min-width: 0;
 }
 .features-tabs__body img {
   max-width: 100%;
@@ -565,6 +566,19 @@ body {
 }
 .image-slider__image img {
   max-width: 100%;
+}
+
+.swiper-pagination {
+  padding-top: 41px;
+  right: 150px;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+}
+.swiper-pagination-bullet:not(:last-child) {
+  margin-right: 20px;
 }
 
 /*----------------------------- Source  ----------------------------------------*/
