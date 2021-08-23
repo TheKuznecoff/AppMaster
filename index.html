@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=1140">
    <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
@@ -48,7 +48,7 @@
                </ul>
             </nav>
             <div class="header__btn">
-               <a class="btn__pic" href="">
+               <a class="header__lang-btn" href="#">
                   <img src="img/start btn.svg" alt="start btn.svg">
                </a>
                <a class="btn btn--login" href="#">Login</a>
@@ -144,18 +144,7 @@
             </nav>
             <div class="features-tabs__body">
                <div class="features-tabs__block _tabs-block _active">
-                  <div class="image-slider swiper-container">
-                     <div class="image-slider__wrapper swiper-wrapper">
-                        <div class="image-slider__img">
-                           <img src="img/preview.jpg" alt="preview.jpg">
-                        </div>
-                     </div>
-                     <div class="image-slider__wrapper swiper-wrapper">
-                        <div class="image-slider__img">
-                           <img src="img/studio.jpg" alt="preview.jpg">
-                        </div>
-                     </div>
-                  </div>
+                  <img src="img/preview.jpg" alt="preview.jpg">
                </div>
                <div class="features-tabs__block _tabs-block">
                   <img src="img/studio.jpg" alt="preview.jpg">
@@ -168,16 +157,34 @@
                </div>
             </div>
          </div>
-         <a class="btn btn--features-tabs" href="#">Try AppMaster.io
-            <img src="img/fas fa-arrow-right2.svg" alt="fas fa-arrow-right2.svg">
-         </a>
+         <div class="features__btn">
+            <a class="btn btn--features-tabs" href="#">Try AppMaster.io
+               <img src="img/fas fa-arrow-right2.svg" alt="fas fa-arrow-right2.svg">
+            </a>
+         </div>
       </div>
+      <!--slider
+      <div class="image-slider swiper-container">
+         <div class="image-slider__wrapper swiper-wrapper">
+            <div class="image-slider__slide swiper-slide">
+               <div class="image-slider__image">
+                  <img src="img/preview.jpg" alt="preview.jpg">
+               </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+               <div class="image-slider__image">
+                  <img src="img/studio.jpg" alt="preview.jpg">
+               </div>
+            </div>
+         </div>
+      </div>
+      -->
    </section>
    <section class="source">
       <div class="container">
          <div class="source__body">
             <div class="source__left">
-               <a class="btn btn--source" href="#">Source Code</a>
+               <a class="btn btn--features" href="#">Source Code</a>
                <h2 class="source__title">Source Code at your fingertips</h2>
                <p class="source__text">AppMaster.io AI will carefully work out every part of the project: data
                   structures, business logic, back-end, web and mobile applications, API.</p>
@@ -206,7 +213,7 @@
          </div>
       </div>
    </section>
-   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
    <script src="js/app.js"></script>
 </body>
 
