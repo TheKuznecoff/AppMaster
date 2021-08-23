@@ -254,6 +254,7 @@ body {
    align-items: flex-end;
    max-width: 100%;
    min-height: 582px;
+   overflow: hidden;
 
    background-image: url(../img/bg.jpg);
    background-position: bottom;
@@ -313,7 +314,7 @@ body {
       }
    }
 }
-/*----------------------------- Main-Inner ----------------------------------------*/
+/*----------------------------- Inner-main ----------------------------------------*/
 .inner-main {
    &__body {
       margin-top: 64px;
