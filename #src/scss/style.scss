@@ -227,6 +227,8 @@ body {
    }
 
    &__item {
+      display: inline-flex;
+      align-items: center;
       select {
          cursor: pointer;
          padding: 0px;
