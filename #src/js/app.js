@@ -23,5 +23,8 @@ new Swiper('.image-slider', {
    pagination: {
       el: '.swiper-pagination',
       clickable: true,
-   }
+   },
+   observer: true,
+   observeParents: true,
+   observeSlideChildren: true,
 });
