@@ -320,8 +320,21 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .main-page__img {
   position: relative;
+}
+.main-page__img::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -60px;
+  left: 0;
+  z-index: 10;
+  background-image: url(../img/Notification.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 .main-page__img img {
   max-width: 100%;
@@ -359,6 +372,11 @@ body {
   margin: 0px 0px 2.2222222222em 0px;
 }
 
+.block-page__body {
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(144, 163, 181, 0.22));
+          filter: drop-shadow(0px 4px 4px rgba(144, 163, 181, 0.22));
+  background: #ffffff;
+}
 /*----------------------------- Inner-main ----------------------------------------*/
 .inner-main__body {
   margin-top: 64px;
