@@ -597,6 +597,10 @@ body {
   margin-right: 20px;
 }
 
+.image-slider {
+  overflow: hidden;
+}
+
 /*----------------------------- Source  ----------------------------------------*/
 .source {
   padding: 129px 0px;
